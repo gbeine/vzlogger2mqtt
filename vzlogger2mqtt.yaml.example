@@ -1,0 +1,18 @@
+mqtt:
+    host: localhost
+    port: 1883
+    user: user
+    password: secret
+    topic: "mqtt/topic/for/vzlogger"
+vzlogger:
+    host: "localhost"
+    port: 8080
+    devices:
+      - uuid: "E38629A5-6502-4A0A-92E2-12DFD088FF3E"
+        topic: "q3m/consumption"
+      - uuid: "909298B3-2BE4-4237-9460-0A803632DBD3"
+        topic: "q3m/power"
+      - uuid: "B70A151C-4DAC-45A4-998D-DC474A5DB023"
+        topic: "mt174/consumption"
+      - uuid: "FD2E81AE-EA1E-4594-9ED3-B0336D60150A"
+        topic: "mt174/production"
