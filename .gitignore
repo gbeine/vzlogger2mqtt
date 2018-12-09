@@ -1,0 +1,8 @@
+__pycache__
+bin
+lib
+vzlogger2mqtt.bbprojectd
+pip-selfcheck.json
+pyvenv.cfg
+vzlogger2mqtt/vzlogger2mqtt.egg-info
+vzlogger2mqtt.yaml
