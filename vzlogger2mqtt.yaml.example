@@ -4,6 +4,8 @@ mqtt:
     user: user
     password: secret
     topic: "mqtt/topic/for/vzlogger"
+    qos: 1
+    retain: true
 vzlogger:
     host: "localhost"
     port: 8080

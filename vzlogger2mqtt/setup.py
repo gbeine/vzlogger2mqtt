@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='vzlogger2mqtt',
-      version='0.1',
+      version='0.2',
       description='vzlogger 2 MQTT bridge',
       url='https://github.com/gbeine/vzlogger2mqtt',
       author='Gerrit',
